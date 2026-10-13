@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>김재윤 — 매일 고르는 물건 다섯 개</title>
+<meta name="description" content="웹디자인과 프론트엔드를 중심으로, AI와 백엔드에도 관심을 넓혀가고 있습니다.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="김재윤 — 매일 고르는 물건 다섯 개">
+<meta property="og:description" content="웹디자인과 프론트엔드를 중심으로, AI와 백엔드에도 관심을 넓혀가고 있습니다.">
+<meta property="og:image" content="assets/hero_people_blur.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400&family=Noto+Serif+KR:wght@400;600&family=IBM+Plex+Mono:wght@400;600&family=Nanum+Gothic+Coding:wght@400;700&family=Jua&family=Gowun+Dodum&display=swap">
+<link rel="stylesheet" href="tokens.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="my-style.css">
+</head>
+<body>
+
+<!-- 상단 고정 바 — 왼쪽 사이트 제목 · 오른쪽 장 메뉴 다섯 칸(지금 장 칸만 아래 굵은 선, 그 밖의 선 없음). 첫 화면 사진 위에선 글자색을 사진 명도로(§I-6), 본문 위에선 바탕 면 88% + 흐림(§I-5) -->
+<header class="ca-gnb">
+  <div class="ca-gnb-row">
+    <p class="ca-gnb-name"><a href="#top">김재윤의 취향 아카이브</a></p>
+    <nav class="ca-menu" aria-label="장">
+      <a href="#s2">Gaze</a>
+      <a href="#s3">People</a>
+      <a href="#s4">Spaces</a>
+      <a href="#s5">Objects</a>
+      <a href="#s6">Criteria</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ① 첫 화면 — 사진이 여백 없이 화면 가득, 그 위 아래쪽 왼쪽에 대표 제목. 글자색은 sig.js가 사진 명도로 고른다(§I-6) -->
+<div class="ca-top ca-top--hero" id="top">
+  <figure class="ca-hero ca-hero--full"><img src="assets/hero_people_blur.jpg" width="1200" height="800" alt="첫 화면 사람 사진 1"></figure>
+  <div class="ca-hero-t">
+    <h1 class="ca-h1">I choose light, simple things I can reach for when needed.</h1>
+  </div>
+</div>
+
+<main>
+
+  <!-- ③ 1장 시선 — 카드 줄: 묶음마다 카드 하나(사진 최대 5장, 카드엔 2장). 연 카드 하나만 3열로 -->
+  <section class="ca-sec" id="s2" aria-labelledby="s2-t"><div class="ca-head ca-row"><h2 class="ca-label" id="s2-t">1장 시선</h2><p class="ca-lead">하늘의 빛, 손의 움직임, 멀리 이어지는 길에서 밝고 희망찬 순간을 찾았다.</p></div><div class="ca-track">
+<article class="ca-card" data-card-thumb><div class="ca-cap"><h3 class="ca-name"><button class="ca-open" type="button">하늘</button></h3><p class="ca-when">분홍빛 구름과 노을빛이 어두운 하늘까지 물들이는 모습에서 다음의 밝은 순간을 떠올렸다.</p></div><figure class="ca-card-thumb"><img src="assets/w04_sky03_unsplash_kenrickmills.jpg" alt="하늘 카드 썸네일 — 사진 3"></figure><div class="ca-body"><figure class="ca-fig"><img src="assets/w04_sky02_unsplash_diegoph.jpg" width="5184" height="3456" alt="1장 시선 하늘 사진 2"></figure><figure class="ca-fig"><img src="assets/w04_sky03_unsplash_kenrickmills.jpg" width="8165" height="12247" alt="1장 시선 하늘 사진 3"></figure><figure class="ca-fig"><img src="assets/w04_sky01_unsplash_altinaydinc.jpg" width="2814" height="4221" alt="1장 시선 하늘 사진 1"></figure><figure class="ca-fig"><img src="assets/w04_sky04_unsplash_lauravinck.jpg" width="3024" height="4032" alt="1장 시선 하늘 사진 4"></figure><figure class="ca-fig"><img src="assets/w04_sky05_unsplash_resulmentes.jpg" width="4433" height="7880" alt="1장 시선 하늘 사진 5"></figure><p class="ca-why">하늘·손·길의 이미지가 밝고 희망차 보여서 선택했다.</p></div></article>
+<article class="ca-card"><div class="ca-cap"><h3 class="ca-name"><button class="ca-open" type="button">손</button></h3><p class="ca-when">빛을 향해 뻗고, 꽃을 품고, 서로 닿으려는 손에서 따뜻한 희망을 느꼈다.</p></div><div class="ca-body"><figure class="ca-fig"><img src="assets/w04_hands01_unsplash_cathan.jpg" width="3361" height="3939" alt="1장 시선 손 사진 1"></figure><figure class="ca-fig"><img src="assets/w04_hands02_unsplash_linatrochez.jpg" width="6016" height="4016" alt="1장 시선 손 사진 2"></figure><figure class="ca-fig"><img src="assets/w04_hands03_unsplash_ramiropianarosa.jpg" width="2971" height="4486" alt="1장 시선 손 사진 3"></figure><figure class="ca-fig"><img src="assets/w04_hands04_unsplash_sindysussengut.jpg" width="3000" height="4000" alt="1장 시선 손 사진 4"></figure><figure class="ca-fig"><img src="assets/w04_hands05_unsplash_youssefnaddam.jpg" width="2448" height="3264" alt="1장 시선 손 사진 5"></figure><p class="ca-why">하늘·손·길의 이미지가 밝고 희망차 보여서 선택했다.</p></div></article>
+<article class="ca-card" data-card-thumb><div class="ca-cap"><h3 class="ca-name"><button class="ca-open" type="button">길</button></h3><p class="ca-when">도시와 숲, 사막의 길이 멀리 이어지는 모습에서 앞으로 나아갈 수 있다는 느낌을 받았다.</p></div><figure class="ca-card-thumb"><img src="assets/w04_road05_unsplash_pierrejeanneret.jpg" alt="길 카드 썸네일 — 사진 5"></figure><div class="ca-body"><figure class="ca-fig"><img src="assets/w04_road01_unsplash_holdenbaxter.jpg" width="2731" height="4096" alt="1장 시선 길 사진 1"></figure><figure class="ca-fig"><img src="assets/w04_road02_unsplash_joshhild.jpg" width="3000" height="4200" alt="1장 시선 길 사진 2"></figure><figure class="ca-fig"><img src="assets/w04_road03_unsplash_katiemoum.jpg" width="3840" height="5760" alt="1장 시선 길 사진 3"></figure><figure class="ca-fig"><img src="assets/w04_road04_unsplash_merittthomas.jpg" width="5304" height="7952" alt="1장 시선 길 사진 4"></figure><figure class="ca-fig"><img src="assets/w04_road05_unsplash_pierrejeanneret.jpg" width="2925" height="3656" alt="1장 시선 길 사진 5"></figure><p class="ca-why">하늘·손·길의 이미지가 밝고 희망차 보여서 선택했다.</p></div></article></div></section>
+
+  <!-- ④ 2장 사람 — 12단: 왼쪽 4단 = 장 이름 · 큰 문장(소개 글 삭제) | 오른쪽 6단 = 이유 카드 셋(사진 3단 | 글 3단) -->
+  <section class="ca-sec ca-split" id="s3" aria-labelledby="s3-t"><div class="ca-head ca-row"><h2 class="ca-label" id="s3-t">2장 사람 · 스티브 잡스</h2><p class="ca-lead">기술을 일상으로 만들어 사람들의 생활 방식을 변화시킨 스티브 잡스를 좋아하며,<br>기술과 인문학을 연결해 창의성을 넓히는 그의 태도를 닮고 싶다.</p></div><div class="ca-grid ca-row">
+<article class="ca-card"><div class="ca-cap"><h3 class="ca-name"><button class="ca-open" type="button">PC의 대중화</button></h3><p class="ca-when">컴퓨터를 사고 능력을 확장하는 도구로 설명함</p></div><div class="ca-body"><figure class="ca-fig"><a href="https://www.youtube.com/watch?v=CeSAjK2CBEA&amp;t=60s" target="_blank" rel="noopener"><img src="assets/jobs_pc_thumbnail.png" width="1304" height="727" alt="2장 사람 PC의 대중화 사진 1"></a></figure><p class="ca-why">기술을 누구나 활용하는 일상으로 바꾼 점이 좋다.</p></div></article>
+<article class="ca-card"><div class="ca-cap"><h3 class="ca-name"><button class="ca-open" type="button">스마트폰 혁신</button></h3><p class="ca-when">음악·전화·인터넷 기능을 결합한 아이폰을 소개함</p></div><div class="ca-body"><figure class="ca-fig"><a href="https://www.youtube.com/watch?v=CeSAjK2CBEA&amp;t=104s" target="_blank" rel="noopener"><img src="assets/jobs_phone_thumbnail.png" width="1329" height="735" alt="2장 사람 스마트폰 혁신 사진 1"></a></figure><p class="ca-why">사람들의 생활 방식을 바꾼 점에 끌린다.</p></div></article>
+<article class="ca-card"><div class="ca-cap"><h3 class="ca-name"><button class="ca-open" type="button">기술과 인문학의 연결</button></h3><p class="ca-when">사람의 창의성을 높이는 제품을 이야기함</p></div><div class="ca-body"><figure class="ca-fig"><a href="https://www.youtube.com/watch?v=CeSAjK2CBEA&amp;t=82s" target="_blank" rel="noopener"><img src="assets/jobs_humanities_thumbnail.png" width="1300" height="725" alt="2장 사람 기술과 인문학의 연결 사진 1"></a></figure><p class="ca-why">기술로 사람의 가능성을 넓히려는 태도를 닮고 싶다.</p></div></article></div></section>
+
+  <!-- ⑤ 3장 공간 — 왼쪽 공간 목록(이름 · 서브카피 · More) | 오른쪽 사진을 작은 정사각 칸에 흩어 둠(W07-B에서 이식). 칸 클릭 → 상세 -->
+  <section class="ca-sec" id="s4" aria-labelledby="s4-t"><div class="ca-head ca-row"><h2 class="ca-label" id="s4-t">3장 공간</h2></div><div class="ca-track" data-scatter>
+<article class="ca-card"><div class="ca-cap"><h3 class="ca-name"><button class="ca-open" type="button">침실</button></h3><p class="ca-when">휴식을 취하고 싶어서<br>몸이 지치고 쉬고 싶을때 가장 오래 머물고 싶어</p></div><div class="ca-body"><figure class="ca-fig"><img src="assets/space1_01.jpeg" width="1366" height="2048" alt="3장 공간 침실 사진 1"><figcaption>몸이 지치고 힘들때 잠깐 쉴수 있는 포근한 침실</figcaption></figure><p class="ca-why">지친몸과 마음을 달랠수있는 휴식공간에서 휴식을 취하고 싶어서</p></div></article>
+<article class="ca-card"><div class="ca-cap"><h3 class="ca-name"><button class="ca-open" type="button">휴게실</button></h3><p class="ca-when">휴식을 취하고 싶어서<br>일을 하다가 잠깐의 휴식을 취하고 싶을떄</p></div><div class="ca-body"><figure class="ca-fig"><img src="assets/space2_01.jpeg" width="1472" height="1962" alt="3장 공간 휴게실 사진 1"><figcaption>잠깐의 휴식</figcaption></figure><p class="ca-why">지친몸과 마음을 달랠수있는 휴식공간에서 휴식을 취하고 싶어서</p></div></article>
+<article class="ca-card"><div class="ca-cap"><h3 class="ca-name"><button class="ca-open" type="button">휴식공간</button></h3><p class="ca-when">휴식을 취하고 싶어서<br>온전히 나의 나의 시간을 갖고 고요한 적막속에서 쉬고 싶을때</p></div><div class="ca-body"><figure class="ca-fig"><img src="assets/space3_01.jpeg" width="1472" height="2208" alt="3장 공간 휴식공간 사진 1"><figcaption>고요한 적막속에서의 휴식</figcaption></figure><p class="ca-why">지친몸과 마음을 달랠수있는 휴식공간에서 휴식을 취하고 싶어서</p></div></article></div></section>
+
+  <!-- ⑥ 4장 물건 — 번호 줄(장 머리 안) + 카드 줄(7주 부품 v1 동작 그대로) -->
+  <section class="ca-sec" id="s5" aria-labelledby="s5-t"><div class="ca-head ca-row"><h2 class="ca-label" id="s5-t">4장 물건</h2></div><div class="ca-track" data-index>
+<article class="ca-card"><div class="ca-cap"><h3 class="ca-name"><button class="ca-open" type="button">유선 이어폰</button></h3><p class="ca-when">집에서 밖으로 나설 때 챙겨 사용한다</p></div><div class="ca-body"><figure class="ca-fig"><img src="assets/obj1_01.jpg" width="4032" height="3024" alt="4장 물건 유선 이어폰 사진 1"><figcaption>아어폰의 전체적인 부분</figcaption></figure><p class="ca-why">편하고 익숙해서</p></div></article>
+<article class="ca-card"><div class="ca-cap"><h3 class="ca-name"><button class="ca-open" type="button">라이트닝 케이블</button></h3><p class="ca-when">핸드폰의 베터리가 부족할때 사용한다</p></div><div class="ca-body"><figure class="ca-fig"><img src="assets/obj2_01.jpg" width="4032" height="3024" alt="4장 물건 라이트닝 케이블 사진 1"><figcaption>라이트닝 케이블</figcaption></figure><p class="ca-why">라이트닝 케이블을 써야되서</p></div></article>
+<article class="ca-card"><div class="ca-cap"><h3 class="ca-name"><button class="ca-open" type="button">충전 어댑터</button></h3><p class="ca-when">라이트닝 케이블과 함꼐 사용한다</p></div><div class="ca-body"><figure class="ca-fig"><img src="assets/obj3_01.jpg" width="4032" height="3024" alt="4장 물건 충전 어댑터 사진 1"><figcaption>충전 어댑터의  눕혀있는 부분</figcaption></figure><p class="ca-why">익숙해서</p></div></article>
+<article class="ca-card"><div class="ca-cap"><h3 class="ca-name"><button class="ca-open" type="button">ain 지우개</button></h3><p class="ca-when">연필을 사용하고 지울때 사용한다</p></div><div class="ca-body"><figure class="ca-fig"><img src="assets/obj4_01.jpg" width="4032" height="3024" alt="4장 물건 ain 지우개 사진 1"><figcaption>ain 지우개 눕혀있는 부분</figcaption></figure><p class="ca-why">가볍고 잘지워지고 편해서</p></div></article>
+<article class="ca-card"><div class="ca-cap"><h3 class="ca-name"><button class="ca-open" type="button">카드 지갑</button></h3><p class="ca-when">카드를 꺼내 카드를 사용할때 사용한다</p></div><div class="ca-body"><figure class="ca-fig"><img src="assets/obj5_01.jpg" width="4032" height="3024" alt="4장 물건 카드 지갑 사진 1"><figcaption>카드 지갑</figcaption></figure><p class="ca-why">편해서</p></div></article></div></section>
+
+  <!-- ⑦ 기준이 쌓이는 자리 — 장 키워드(시선·사람·공간·물건, 주차는 작은 보조 표기)별 기준 한 줄(원 List 줄 리듬) + 세 곳의 공통점 -->
+  <section class="ca-sec" id="s6" aria-labelledby="s6-t"><div class="ca-head ca-row"><h2 class="ca-label" id="s6-t">기준이 쌓이는 자리</h2></div><dl class="ca-rows"><div class="ca-r ca-row"><dt>공간</dt><dd></dd></div><div class="ca-r ca-row"><dt>물건</dt><dd></dd></div><div class="ca-r ca-row"><dt>호불호</dt><dd>무선이어폰 이유는 충전하기 귀찮아서</dd></div></dl></section>
+</main>
+
+
+
+
+<footer class="ca-bar-b">
+  <p class="ca-gnb-c" lang="en">©2026</p>
+</footer>
+
+<script src="sig.js"></script>
+</body>
+</html>
+
+
